@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Tests\Singleton;
+namespace App\Tests;
 
 use App\Singleton\Preferences;
 use PHPUnit\Framework\TestCase;
 
-class PreferencesTest extends TestCase
+class SingletonTest extends TestCase
 {
-    public function testSingleton()
+    public function testSingleton(): void
     {
         $pref1 = Preferences::instance();
 

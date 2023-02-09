@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Tests\Strategy\Lesson;
+namespace App\Tests;
 
 use App\Strategy\CostStrategy\FixedCostStrategy;
 use App\Strategy\CostStrategy\TimedCostStrategy;
@@ -8,9 +8,9 @@ use App\Strategy\Lesson\Lecture;
 use App\Strategy\Lesson\Seminar;
 use PHPUnit\Framework\TestCase;
 
-class LessonTest extends TestCase
+class StrategyTest extends TestCase
 {
-    public function testStrategy()
+    public function testStrategy(): void
     {
         $timedCostSeminar = new Seminar(1, new TimedCostStrategy());
         $fixedCostSeminar = new Seminar(2, new FixedCostStrategy());
