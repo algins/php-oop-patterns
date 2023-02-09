@@ -10,7 +10,7 @@ use PHPUnit\Framework\TestCase;
 
 class LessonTest extends TestCase
 {
-    public function testCostStrategies()
+    public function testStrategy()
     {
         $timedCostSeminar = new Seminar(1, new TimedCostStrategy());
         $fixedCostSeminar = new Seminar(2, new FixedCostStrategy());
