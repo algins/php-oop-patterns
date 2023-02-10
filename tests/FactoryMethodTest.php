@@ -11,9 +11,12 @@ class FactoryMethodTest extends TestCase
     public function testFactoryMethod(): void
     {
         $roadLogistics = new RoadLogistics();
-        $seaLogistics = new SeaLogistics();
+        $truck = $roadLogistics->createTransport();
 
-        $this->assertEquals($roadLogistics->createTransport()->deliver(), 'Delivered by Truck');
-        $this->assertEquals($seaLogistics->createTransport()->deliver(), 'Delivered by Ship');
+        $seaLogistics = new SeaLogistics();
+        $ship = $seaLogistics->createTransport();
+
+        $this->assertEquals($truck->deliver(), 'Delivered by Truck');
+        $this->assertEquals($ship->deliver(), 'Delivered by Ship');
     }
 }
