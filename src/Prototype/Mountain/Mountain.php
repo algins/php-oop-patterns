@@ -1,22 +1,16 @@
 <?php
 
-namespace App\Prototype;
+namespace App\Prototype\Mountain;
 
-class Rectangle extends Shape
+abstract class Mountain
 {
     public function __construct(
         private readonly int $height,
-        private readonly int $width,
     ) {
     }
 
     public function height(): int
     {
         return $this->height;
-    }
-
-    public function width(): int
-    {
-        return $this->width;
     }
 }
