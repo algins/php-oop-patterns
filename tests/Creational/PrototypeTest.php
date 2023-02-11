@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Creational\Tests;
+namespace App\Tests\Creational;
 
 use App\Creational\Prototype\Mountain\EarthMountain;
 use App\Creational\Prototype\Mountain\MarsMountain;

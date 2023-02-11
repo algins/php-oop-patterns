@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Behavioral\Tests;
+namespace App\Tests\Behavioral;
 
 use App\Behavioral\Strategy\CostStrategy\FixedCostStrategy;
 use App\Behavioral\Strategy\CostStrategy\TimedCostStrategy;

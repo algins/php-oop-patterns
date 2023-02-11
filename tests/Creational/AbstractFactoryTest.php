@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Creational\Tests;
+namespace App\Tests\Creational;
 
 use App\Creational\AbstractFactory\Furniture\ModernFurniture;
 use App\Creational\AbstractFactory\Furniture\VictorianFurniture;

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Creational\Tests;
+namespace App\Tests\Creational;
 
 use App\Creational\FactoryMethod\Logistics\RoadLogistics;
 use App\Creational\FactoryMethod\Logistics\SeaLogistics;
