@@ -3,7 +3,10 @@
     "autoload": {
         "psr-4": {
             "App\\": "src/"
-        }
+        },
+        "files": [
+            "src/Structural/Facade/Library/ProductCompiler.php"
+        ]
     },
     "authors": [
         {
