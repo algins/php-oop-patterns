@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 
 class NullObjectTest extends TestCase
 {
-    public function testObserver(): void
+    public function testNullObject(): void
     {
         $authUser = new AuthUser();
         $authAdminUser = new AuthUser(true);
