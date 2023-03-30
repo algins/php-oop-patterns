@@ -29,4 +29,4 @@ $ make lint
 ```
 
 ### Usage:
-See in tests
+See in tests.
